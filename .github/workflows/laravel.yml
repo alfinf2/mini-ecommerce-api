@@ -1,4 +1,4 @@
-name: Laravel Tests
+name: Deploy To ecommerceapi.infinityfreeapp.com
 
 on:
   push:
@@ -7,6 +7,8 @@ on:
     branches: [ main ]
 
 jobs:
+  deploy:
+    name: Deploy To ecommerceapi.infinityfreeapp.com
   laravel-tests:
     runs-on: ubuntu-latest
 
