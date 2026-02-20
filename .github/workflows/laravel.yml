@@ -7,8 +7,6 @@ on:
     branches: [ main ]
 
 jobs:
-  deploy:
-    name: Deploy To ecommerceapi.infinityfreeapp.com
   laravel-tests:
     runs-on: ubuntu-latest
 
