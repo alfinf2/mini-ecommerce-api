@@ -14,8 +14,8 @@ jobs:
       mysql:
         image: mysql:8
         env:
-          MYSQL_DATABASE: testing
-          MYSQL_ROOT_PASSWORD: root
+          DB_CONNECTION: sqlite
+          DB_DATABASE: ":memory:"
         ports:
           - 3306:3306
         options: >-
