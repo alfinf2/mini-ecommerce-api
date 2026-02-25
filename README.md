@@ -1,30 +1,30 @@
-🛒 Mini E-Commerce REST API
+ Mini E-Commerce REST API
 
 A production-ready RESTful API built with Laravel 12.
 
-🚀 Features
+ Features
 
-🔐 Authentication using Laravel Sanctum
+ Authentication using Laravel Sanctum
 
-👥 Role-based Authorization (Admin & User)
+ Role-based Authorization (Admin & User)
 
-📦 Product & Category Management
+ Product & Category Management
 
-🛒 Shopping Cart System
+ Shopping Cart System
 
-💳 Transactional Checkout
+ Transactional Checkout
 
-📊 Order Status Workflow
+ Order Status Workflow
 
-❌ Order Cancellation Logic
+ Order Cancellation Logic
 
-📈 Admin Dashboard Summary
+ Admin Dashboard Summary
 
-🧪 Full Feature API Testing
+ Full Feature API Testing
 
-⚙️ CI/CD with GitHub Actions
+ CI/CD with GitHub Actions
 
-🏗️ Tech Stack
+ Tech Stack
 
 Laravel 12
 
@@ -36,7 +36,7 @@ Pest Feature Testing
 
 GitHub Actions CI/CD
 
-📌 API Structure
+ API Structure
 Auth
 
 POST /api/register
@@ -83,9 +83,9 @@ PATCH /api/orders/{id}/cancel
 
 PATCH /api/orders/{id}/status (admin)
 
-🧪 Running Tests
+ Running Tests
 php artisan test
-⚙️ Setup
+ Setup
 git clone https://github.com/alfinf2/mini-ecommerce-api.git
 cd mini-ecommerce-api
 composer install
@@ -93,7 +93,7 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan serve
-📈 CI/CD
+ CI/CD
 
 Every push to main branch automatically runs:
 
@@ -103,6 +103,6 @@ Database Migration
 
 Full Feature Testing
 
-👨‍💻 Author
+ Author
 
-Alvin F
+Alfin F
